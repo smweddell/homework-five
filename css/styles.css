@@ -488,7 +488,7 @@ nav .links div a {
   margin-bottom: 37px;
 }
 .about .about-bottom .client {
-  max-width: 630px;
+  max-width: 722px;
   min-height: 150px;
   margin-bottom: 38px;
   display: flex;
@@ -512,7 +512,6 @@ nav .links div a {
 .about .about-bottom .client .client-quote {
   position: relative;
   min-height: 50px;
-  width: 100%;
   padding-left: 20px;
 }
 .about .about-bottom .client .client-quote .clientQ {
