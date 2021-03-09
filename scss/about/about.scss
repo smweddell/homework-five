@@ -41,7 +41,7 @@
     }
 
     .client {
-      max-width: 722px;
+      max-width: 630px;
       min-height: 150px;
       margin-bottom: 38px;
       display: flex;
@@ -66,14 +66,15 @@
       .client-quote {
         position: relative;
         min-height: 50px;
-        max-width: 385px;
+        width: 100%;
         padding-left: 20px;
-        font-family: Gillsans;
-        font-size: 16px;
-        font-style: italic;
 
-        p:last-of-type {
-          margin-bottom: 50px;
+        .clientQ {
+          height: 102px;
+          width: 385px;
+          font-family: Gillsans;
+          font-size: 16px;
+          font-style: italic;
         }
 
         .client-name {
@@ -83,7 +84,6 @@
           color: $site-blue;
           font-family: Proxima;
           font-size: 20px;
-          font-style: normal;
         }
       }
     }
