@@ -496,23 +496,23 @@ nav .links div a {
 .about .about-bottom .client .client-image {
   width: 260px;
   height: 150px;
-}
-.about .about-bottom .client .client-image img {
-  width: 100%;
-  height: 100%;
+  background-image: url(../assets/about-client-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .about .about-bottom .client .client-image2 {
   width: 260px;
   height: 150px;
-}
-.about .about-bottom .client .client-image2 img {
-  width: 100%;
-  height: 100%;
+  background-image: url(../assets/about-client-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .about .about-bottom .client .client-quote {
   position: relative;
   min-height: 50px;
-  width: 100%;
+  max-width: 385px;
   padding-left: 20px;
   font-family: Gillsans;
   font-size: 16px;
